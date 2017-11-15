@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/etimue-tap-list-slider.iml" filepath="$PROJECT_DIR$/.idea/etimue-tap-list-slider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../slide/.idea/slide.iml" filepath="$PROJECT_DIR$/../../../../slide/.idea/slide.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../themes/twentyseventeen/.idea/twentyseventeen.iml" filepath="$PROJECT_DIR$/../../themes/twentyseventeen/.idea/twentyseventeen.iml" />
+      <module fileurl="file://C:\wamp64\www\wordpress\wp-content\themes\twentyseventeen\.idea\twentyseventeen.iml" filepath="C:\wamp64\www\wordpress\wp-content\themes\twentyseventeen\.idea\twentyseventeen.iml" />
     </modules>
   </component>
 </project>

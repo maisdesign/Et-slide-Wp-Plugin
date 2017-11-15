@@ -5,5 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="twentyseventeen" />
+    <orderEntry type="module" module-name="twentyseventeen" />
+    <orderEntry type="module" module-name="slide" />
   </component>
 </module>
