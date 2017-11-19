@@ -6,6 +6,18 @@
  * Time: 19:45
  * Plugin Name: Etimuè Sliding Tap List
  */
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // disable direct access
+}
+/**
+ * Define where we will get all the files
+ */
+define( 'ET_SLIDER_PATH', plugin_dir_path( __FILE__ ) );
+
+/*
+ * Stop defining me!
+ */
+
 include( dirname( __FILE__ ) . '/library/admin-page-framework/admin-page-framework.php' );
 
 if ( ! class_exists( 'EtTapListSlider_AdminPageFramework' ) ) {
@@ -60,6 +72,9 @@ class APF_CreatePageGroup extends AdminPageFramework {
         <p>Here you'll be able to choose how many beers you have on tap.</p>
         <p>Use the slider and write down a small description of the beers.</p>
         <blockquote>Example: Falesia - Bock - 7.0%</blockquote>
+
+        <h3>To include the slideshow chooe the right place in your template and add this code:</h3>
+        <h4>&lt;?php require_once ( ET_SLIDER_PATH . 'etsliderinclude.php');?&gt;</h4>
         <?php
     }
     public function do_et_beer_description() {

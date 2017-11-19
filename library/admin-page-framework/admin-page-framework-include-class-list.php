@@ -1,4 +1,7 @@
-<?php 
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // disable direct access
+}
 $aClassFiles = array( 
     "EtTapListSlider_AdminPageFramework"=> EtTapListSlider_AdminPageFramework_Registry::$sDirPath . "/factory/admin_page/AdminPageFramework.php", 
     "EtTapListSlider_AdminPageFramework_Form_admin_page"=> EtTapListSlider_AdminPageFramework_Registry::$sDirPath . "/factory/admin_page/form/AdminPageFramework_Form_admin_page.php", 
